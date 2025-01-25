@@ -34,6 +34,10 @@ header.rolagem{
   padding: 10px 4%;
 }
 
+header.rolagem a{
+  color: #4CAF50;
+}
+
 .iconi{
   font-size: 30px;
   color: #000000;
