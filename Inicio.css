@@ -41,10 +41,10 @@ header.rolagem a{
 .iconi{
   font-size: 30px;
   color: #000000;
-  background-image: url('17.png');
-  background-repeat: no-repeat;
-  background-size: 20%;
-
+}
+.logo{
+    width: 50px;
+    height: 100px;
 }
 
 header ul{
