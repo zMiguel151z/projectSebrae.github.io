@@ -80,9 +80,12 @@ header a{
 .banner h1{
   font-size: 250%;
   margin-left: 10%;
+  text-align: justify;
+}
 }
 .banner span{
   color: #00fe00;
+  text-align: justify;
 }
 
 
