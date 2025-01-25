@@ -74,7 +74,8 @@ header a{
 
 .banner h1{
   font-size: 200%;
-  text-align: center;
+  top: auto;
+ left: auto;
 }
 
 .banner span{
