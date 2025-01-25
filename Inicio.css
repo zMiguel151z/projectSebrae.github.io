@@ -71,7 +71,6 @@ header a{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +82,7 @@ header a{
   margin-left: 10%;
   text-align: center;
     top: auto;
-  left: auto;
+ 
 }
  
 }
@@ -92,7 +91,6 @@ header a{
   color: #00fe00;
   text-align: center;
     top: auto;
-  left: auto;
 }
    
 }
