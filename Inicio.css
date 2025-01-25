@@ -75,18 +75,25 @@ header a{
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
 .banner h1{
   font-size: 250%;
   margin-left: 10%;
   text-align: center;
+    top: auto;
+  left: auto;
+}
  
 }
 }
 .banner span{
   color: #00fe00;
   text-align: center;
+    top: auto;
+  left: auto;
+}
    
 }
 }
