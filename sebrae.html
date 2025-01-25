@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Produtores</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Conexão Produtores!</h1>
+        <nav>
+            <ul>
+                <li><a href="#ofertas">Ofertas de Trabalho</a></li>
+                <li><a href="#curriculos">Currículos</a></li>
+                <li><a href="#cursos">Cursos Técnicos</a></li>
+                <li><a href="#comunidade">Comunidade</a></li>
+                <li><a href="#informacoes">Informações por Área</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ofertas">
+            <h2>Ofertas de Trabalho</h2>
+            <p>Aqui, os produtores podem publicar suas ofertas de trabalho e estágios.</p>
+            <!-- Formulário para ofertas de trabalho -->
+        </section>
+
+        <section id="curriculos">
+            <h2>Currículos</h2>
+            <p>Candidatos podem enviar seus currículos para serem visualizados pelos produtores.</p>
+            <!-- Formulário para envio de currículos -->
+        </section>
+
+        <section id="cursos">
+            <h2>Cursos Técnicos</h2>
+            <p>Explore nossos cursos técnicos para se qualificar na área.</p>
+            <!-- Lista de cursos -->
+        </section>
+
+        <section id="comunidade">
+            <h2>Comunidade de Agricultores</h2>
+            <p>Um espaço para os agricultores se comunicarem e se ajudarem mutuamente.</p>
+            <!-- Fórum ou espaço de discussão -->
+        </section>
+
+        <section id="informacoes">
+            <h2>Informações por Área</h2>
+            <p>Descubra as vantagens, desvantagens e informações sobre diferentes áreas de atuação.</p>
+            <!-- Tabela ou lista com informações -->
+        </section>
+        
+        <section id="login">
+    <h2>Área de Login</h2>
+    <form action="#" method="post">
+        <label for="tipo-usuario">Você é:</label>
+        <select id="tipo-usuario" name="tipo-usuario" required>
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="candidato">Candidato (Procurando emprego)</option>
+            <option value="produtor">Produtor (Oferecendo trabalho)</option>
+        </select>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        
+        <button type="submit">Entrar</button>
+    </form>
+</section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2023 Conexão Produtores. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
