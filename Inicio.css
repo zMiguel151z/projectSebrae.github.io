@@ -81,10 +81,14 @@ header a{
   font-size: 250%;
   margin-left: 10%;
   text-align: justify;
+   margin: auto;
+}
 }
 .banner span{
   color: #00fe00;
   text-align: justify;
+   margin: auto;
+}
 }
 
 
