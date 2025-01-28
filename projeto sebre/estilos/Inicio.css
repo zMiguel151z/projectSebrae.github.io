@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Sans-Serif;
+}
+
+html {
+  height: 300vh;
+  background-color: #e0f2f1;
+}
+@media screen and (max-width:1020px){
+  
+.conteine {
+  max-width: 1020px;
+  margin: auto;
+}
+
+.btn_contato{
+ margin-left: 2%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#header {
+  width: 100%;
+  padding: 20px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .3s;
+}
+
+header.rolagem {
+  background-color: white;
+  padding: 10px 4%;
+}
+
+header.rolagem a {
+  color: #4CAF50;
+}
+
+.iconi {
+  font-size: 30px;
+  color: #000000;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #000000;
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+
+.banner {
+  height: 150vh;
+  background-image: src('agriculttor.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.banner h1 {
+  font-size: 200%;
+  top: auto;
+  left: auto;
+}
+
+.banner span {
+  color: #00fe00;
+}
+.banner h1 {
+  color:#baff9c;
+  margin: 40px;
+}
+
+a #btn2{
+ 
+}
+
+/* Estilos do main */
+main {
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+/* Estilos do footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 10px;
+  }
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+}
+
+
+.conteine {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header {
+  width: 100%;
+  padding: 10px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .3s;
+  border-radius: 2px;
+}
+
+header.rolagem {
+  background-color: white;
+  padding: 10px 4%;
+}
+
+header.rolagem a {
+  color: #4CAF50;
+}
+
+.iconi {
+  font-size: 30px;
+  color: #000000;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #000000;
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+
+.banner {
+  height: 150vh;
+  background-image: url('agriculttor.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.banner h1 {
+  font-size: 200%;
+  top: auto;
+  left: auto;
+  color: #bcb8b8;
+}
+
+.banner span {
+  color: #04f704;
+
+}
+
+
+
+/* Estilos do main */
+main {
+  padding: 20px;
+  
+}
+
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+/* Estilos do footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 10px;
+  
+  }
+}
+
+/* Estilos para a área de login */
+#login {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+
+}
+
