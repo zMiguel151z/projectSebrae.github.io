@@ -71,7 +71,7 @@ header a {
 
 .banner {
   height: 150vh;
-  background-image: src('./Estilos/imagens/agriculttor.jpg');
+  background-image: src('./imagens/agriculttor.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
