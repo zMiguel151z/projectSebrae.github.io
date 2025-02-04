@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Sans-Serif;
+}
+
+html {
+  height: 100vh;
+  background-color: #fff;
+}
+
+h1{
+  margin: 10px;
+}
+
+#contatos{
+  display: none;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 10px;
+}
+img{
+  height: 50px;
+  width: 50px;
+}
+
+.perfil{
+  border-radius:50%;
+}
+
+
+#linha{
+  background-color:#6a6a6a;
+  height: 5px;
+  width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    border: 1px solid;
+}
+
+@media screen and (max-width:1020px){
+  
+  
+  
+}
