@@ -35,12 +35,12 @@ html {
 }
 
 header.rolagem {
-  background-color: white;
+  background-color: rgba(67, 110, 11, 0.432);
   padding: 10px 4%;
 }
 
 header.rolagem a {
-  color: #4CAF50;
+  background-color: rgba(67, 110, 11, 0.432);
 }
 
 .iconi {
@@ -68,13 +68,14 @@ header a {
 
 
 .banner {
-  height: 150vh;
+  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
 }
 /* Estilos do main */
@@ -109,13 +110,17 @@ footer {
   }
 
 button {
-  margin-top: 15px;
+  margin-top: 10px;
   padding: 10px;
-  background: #4CAF50;
-  color: white;
+  background: #036908;
+  color: rgb(255, 255, 255);
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
+  align-items: left;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
 }
 
 button:hover {
@@ -181,7 +186,7 @@ header a {
 
 
 .banner {
-  height: 150vh;
+  height: 50vh;
   background-image: linear-gradient(to right,rgb(12, 68, 12),green);
   background-position: center;
   background-repeat: no-repeat;
