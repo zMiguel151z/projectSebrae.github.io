@@ -271,7 +271,9 @@ select {
 .btn_contato{
   margin-right: 10px;
 }
-
+.imagem{
+  margin-left: 30%;
+}
 
 
 button {
