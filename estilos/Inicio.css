@@ -7,8 +7,7 @@
 
 html {
   height: 300vh;
-  background-color: #e0f2f1;
-}
+  background-color: white;
 @media screen and (max-width:1020px){
   
 .conteine {
@@ -23,7 +22,6 @@ html {
 .flex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   text-align: center;
 }
 
@@ -71,7 +69,6 @@ header a {
 
 .banner {
   height: 150vh;
-  background-image: src('./imagens/agriculttor.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,25 +77,6 @@ header a {
   justify-content: center;
 
 }
-
-.banner h1 {
-  font-size: 200%;
-  top: auto;
-  left: auto;
-}
-
-.banner span {
-  color: #00fe00;
-}
-.banner h1 {
-  color:#baff9c;
-  margin: 40px;
-}
-
-a #btn2{
- 
-}
-
 /* Estilos do main */
 main {
   padding: 20px;
@@ -118,13 +96,7 @@ h2 {
 
 /* Estilos do footer */
 footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #333;
-  color: white;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  background-image: url("/imagens/17.png");
 }
 
   nav ul li {
@@ -151,6 +123,10 @@ button:hover {
 }
 }
 
+}
+
+
+
 
 .conteine {
   max-width: 1280px;
@@ -159,8 +135,6 @@ button:hover {
 
 .flex {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 #header {
@@ -174,7 +148,7 @@ button:hover {
 }
 
 header.rolagem {
-  background-color: white;
+  background-color: rgba(67, 110, 11, 0.432);
   padding: 10px 4%;
 }
 
@@ -208,7 +182,7 @@ header a {
 
 .banner {
   height: 150vh;
-  background-image: url('agriculttor.jpg');
+  background-image: linear-gradient(to right,rgb(12, 68, 12),green);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,17 +196,11 @@ header a {
   font-size: 200%;
   top: auto;
   left: auto;
-  color: #bcb8b8;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
 }
-
-.banner span {
-  color: #04f704;
-
-}
-
-
-
-/* Estilos do main */
 main {
   padding: 20px;
   
@@ -253,13 +221,7 @@ h2 {
 
 /* Estilos do footer */
 footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #333;
-  color: white;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  background-image: url("/imagens/17.png");
 }
 
 /* Responsividade */
@@ -300,17 +262,24 @@ select {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+.btn_contato{
+  margin-right: 10px;
+}
 
 
 
 button {
-  margin-top: 15px;
+  margin-top: 10px;
   padding: 10px;
-  background: #4CAF50;
+  background: #036906;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   cursor: pointer;
+  align-items: left;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
 }
 
 button:hover {
