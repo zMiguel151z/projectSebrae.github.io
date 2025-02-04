@@ -17,6 +17,37 @@ h1{
 #contatos{
   display: none;
 }
+#trabalhos{
+  display: none;
+}
+#Perfil{
+  display: none;
+  border: 2px solid;
+  margin: 4px;
+}
+#contatos2{
+  display:none;
+}
+#Empresas2{
+  display: none;
+}
+
+.buttonperfil{
+  border: none;
+  padding: 1%;
+  margin: 15px;
+}
+
+.buttonperfil2{
+  border: none;
+  padding: 2%;
+  margin: 15px;
+  margin-left: 70%;
+}
+
+#usuario{
+  margin: 15px;
+}
 
 #nav {
   display: flex;
@@ -26,8 +57,8 @@ h1{
   margin: 10px;
 }
 img{
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 .perfil{
@@ -56,6 +87,9 @@ li {
 
 @media screen and (max-width:1020px){
   
-  
+  img{
+  height: 50px;
+  width: 50px;
+  }
   
 }
