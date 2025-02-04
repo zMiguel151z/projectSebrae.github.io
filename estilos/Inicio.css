@@ -76,6 +76,7 @@ header a {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-image: linear-gradient(to bottom, green, darkgreen, black);
 
 }
 /* Estilos do main */
