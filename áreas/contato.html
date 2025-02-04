@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Suporte</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #b5cdd19c;
             margin: 0;
             padding: 0;
         }
@@ -17,9 +17,12 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 500px;
+            margin-top: 60px;
+            border-radius: 15px;
         }
         h1 {
-            text-align: center;
+            text-align: left;
             color: #333;
         }
         form {
@@ -30,6 +33,9 @@
             margin-top: 10px;
             font-weight: bold;
         }
+        h5{
+            font-family: serif;
+        }
         input, textarea {
             padding: 10px;
             margin-top: 5px;
@@ -39,21 +45,47 @@
         button {
             margin-top: 20px;
             padding: 10px;
-            background-color: #007bff;
+            background-color: #198345;
             color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #123d1f;
         }
+        .SupImg{
+            margin-left: 500px;
+        }
+        .contato2{
+            text-align: right;
+        }
+        .copy{
+            border: solid 2px black;
+            text-align: center;
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+        }
+        
     </style>
 </head>
 <body>
+    <div class="contato2">
+                    <i>Caso não cosiga a ajuda contate-nos</i><br>
+                    <i>Número:84-9231-4122</i><br>
+                    <i>Email:Start@gmail.com</i>
+                </div>
     <div class="container">
-        <h1>Contato</h1>
+        <img  class="SupImg" src="Imagens/17.png" alt="error" height="150" width="150" align="right"><div>
+        <h1>Suporte</h1>
+        <h5>Digite seu Nome|Email e a mensagem que quer enviar!<br>
+            Nossa equipe avaliará sua mensagem e tentaremos ajudar.</h5> 
+        </div>
+      
         <form action="/enviar-contato" method="post">
+           
+
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
             
@@ -61,10 +93,14 @@
             <input type="email" id="email" name="email" required>
             
             <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-            
+            <input type="text" id="mensagem" name="mensageem" required>
             <button type="submit">Enviar</button>
         </form>
-    </div>
+    </div>  
+</div>
+<footer class="copy">
+    <p>&copy; 2025 Conexão Produtores. Todos os direitos reservados.</p>
+  </footer>
+
 </body>
 </html>
