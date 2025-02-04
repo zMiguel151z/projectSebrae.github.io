@@ -39,6 +39,12 @@
        </section>
 
     <script>
+        
+        document.getElementById("Enviar").onclick = function() {
+            window.location.href = "portal.html";
+
+        };
+        
         // JavaScript para manipular o envio do formulário
         document.getElementById('login-form').addEventListener('submit', function(event) {
             event.preventDefault(); // Impede o envio do formulário padrão
@@ -47,10 +53,6 @@
             const email = document.getElementById('email').value;
             const senha = document.getElementById('senha').value;
             
-            // Aqui você pode adicionar uma validação extra ou enviar os dados para um servidor
-            console.log('Tipo de Usuário:', tipoUsuario);
-            console.log('E-mail:', email);
-            console.log('Senha:', senha);
 
             // Simulando uma autenticação bem-sucedida
             alert('Login bem-sucedido!');
