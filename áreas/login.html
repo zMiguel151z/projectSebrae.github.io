@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+      <link rel="stylesheet" href="Estilos/Login.css">
+</head>
+<body id="fundo">
+    <!-- Tela de carregamento -->
+    <div id="loading-screen">
+        <div class="spinner"></div>
+    </div>
+       
+       <section>
+       <h1 id="titulo">ÁREA DE LOGIN</h1>
+       
+        <form id="corriculo"  action="" method="post">
+          <p>E-mail</p>
+         <input type="text" name="E-mail" class="input">
+         
+          <p>Senha</p>
+         <input type="password" name="Senha"class="input">
+         
+        <p>você é</p>
+         <select class="input" id="opcao">
+           <option value="" disabled selected>Selecione uma opção</option>
+                <option value="candidato">Candidato (Procurando emprego)</option>
+                <option value="produtor">Produtor (Oferecendo trabalho)</option>
+         </select>
+          <p>O que você espera da Conexão Produtores </p>
+          <textarea class="input"></textarea>
+          
+          <center>
+           <input id="Enviar" type="submit" name="Enviar">
+          </center>
+           
+        </form>
+       </section>
+
+    <script>
+        // JavaScript para manipular o envio do formulário
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio do formulário padrão
+            
+            const tipoUsuario = document.getElementById('tipo-usuario').value;
+            const email = document.getElementById('email').value;
+            const senha = document.getElementById('senha').value;
+            
+            // Aqui você pode adicionar uma validação extra ou enviar os dados para um servidor
+            console.log('Tipo de Usuário:', tipoUsuario);
+            console.log('E-mail:', email);
+            console.log('Senha:', senha);
+
+            // Simulando uma autenticação bem-sucedida
+            alert('Login bem-sucedido!');
+        });
+
+        // JavaScript para exibir a tela de carregamento por 5 segundos
+        window.onload = function() {
+            setTimeout(function() {
+                document.getElementById('loading-screen').style.display = 'none';
+                document.getElementById('login').style.display = 'block';
+            }, 1000);
+        };
+    </script>
+</body>
+</html>
