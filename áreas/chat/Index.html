@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat com Agricultor</title>
+    <link rel="stylesheet" href="Estilo2.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2 id="chat-header-title"></h2>
+            <button onclick="closeChat()">Fechar</button>
+        </div>
+        
+        <div class="chat-fundo">
+          
+        <div class="chat-messages"></div>
+          
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+     
+     <script src="Central2.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const farmerName = urlParams.get('farmer');
+        document.getElementById('chat-header-title').textContent = `Chat com ${farmerName}`;
+
+        // Aqui você pode adicionar o código para enviar e receber mensagens
+    </script>
+</body>
+</html>

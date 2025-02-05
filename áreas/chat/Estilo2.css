@@ -1,0 +1,119 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px; /* Define uma largura máxima para a caixa de chat */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #e0f2f7;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.chat-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Adiciona um fundo sutil à barra de cabeçalho */
+    padding: 10px;
+    border-radius: 10px 10px 0 0; /* Arredonda os cantos superiores */
+}
+
+.chat-fundo {
+   height: 65vh;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-y: auto;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: right;
+    background-color: #rgb(209,0,0);
+}
+
+.chat-message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    word-break: break-word; /* Quebra palavras longas */
+}
+
+.chat-message {
+    background-color: #e0f2f7;
+    text-align: right;
+    margin-left: auto; /* Alinha a mensagem à direita */
+}
+
+.chat-message.other {
+    background-color: #f0f0f0;
+    text-align: left;
+    margin-right: auto; /* Alinha a mensagem à esquerda */
+}
+
+.chat-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+#send-button {
+    padding: 10px 15px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+/* Responsividade */
+@media (max-width: 400px) {
+    .chat-container {
+        width: 95%;
+    }
+}
