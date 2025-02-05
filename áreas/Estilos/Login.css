@@ -10,7 +10,7 @@
         }
         
        #fundo{
-     background-image:linear-gradient(to top,transparent 15%, white 35%), url('/.imagem/banner.jpg') ;
+     background-image:linear-gradient(to top,transparent 15%, white 35%), url('banner.jpg');
      background-repeat: no-repeat;
      background-size: 100%;
      background-position: 50%;
