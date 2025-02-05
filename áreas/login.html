@@ -16,11 +16,14 @@
        <h1 id="titulo">ÁREA DE LOGIN</h1>
        
         <form id="corriculo"  action="https://api.sheetmonkey.io/form/ehYVLAPoABGbVYGUwCGikn" method="post">
-          <p>E-mail</p>
-         <input type="text" name="E-mail" class="input">
-         
-          <p>Senha</p>
-         <input type="password" name="Senha"class="input">
+
+             <label for="email">Email:</label>
+
+            <input class="input" type="email" id="email" name="email" required>
+
+        <label for="senha">Senha:</label>
+
+            <input class="input" type="password" id="senha" name="senha" required>
          
         <p>você é</p>
          <select class="input" id="opcao">
@@ -39,32 +42,13 @@
        </section>
 
     <script>
-        
-        document.getElementById("Enviar").onclick = function() {
-            window.location.href = "portal.html";
+        document.getElementById('corriculo').addEventListener('submit', function(event) {
 
-        };
-        
-        // JavaScript para manipular o envio do formulário
-        document.getElementById('login-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Impede o envio do formulário padrão
-            
-            const tipoUsuario = document.getElementById('tipo-usuario').value;
-            const email = document.getElementById('email').value;
-            const senha = document.getElementById('senha').value;
-            
+        event.preventDefault(); // Impede o recarregamento da página
 
-            // Simulando uma autenticação bem-sucedida
-            alert('Login bem-sucedido!');
-        });
+        window.location.href = 'portal.html'; // Redireciona para a nova página
 
-        // JavaScript para exibir a tela de carregamento por 5 segundos
-        window.onload = function() {
-            setTimeout(function() {
-                document.getElementById('loading-screen').style.display = 'none';
-                document.getElementById('login').style.display = 'block';
-            }, 1000);
-        };
+    });
     </script>
 </body>
 </html>
