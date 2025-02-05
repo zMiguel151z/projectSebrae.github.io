@@ -26,7 +26,7 @@ sendButton.addEventListener('click', () => {
 
 // Função para fechar o chat
 function closeChat() {
-  window.location.href = "portal.html"
+  window.location.href = "https://zmiguel151z.github.io/projectSebrae.github.io/%C3%A1reas/portal.html";
 }
 
 // Lógica para receber mensagens do servidor e exibir no lado direito
