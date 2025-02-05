@@ -10,7 +10,7 @@
         }
         
        #fundo{
-     background-image:linear-gradient(to top,transparent 15%, white 35%), url('banner.jpg');
+     background-image:linear-gradient(to top,transparent 15%, white 35%), url('./imagens/banner.jpg');
      background-repeat: no-repeat;
      background-size: 100%;
      background-position: 50%;
@@ -70,4 +70,33 @@
      background-position: bottom;
    }
 }
+
+ .input{
+   justify-content: center;
+   justify-items: left;
+   border-radius: 8px;
+   padding: 8px;
+   padding-left: 2%;
+   margin-bottom: 10%;
+   opacity: 70%;
+   width:95%;
+ }
+
+ .p{
+  background-color: aliceblue;
+  border-radius: 3px;
+  opacity: 80%;
+
+
+ }
+ .caixa{
+  justify-content: center;
+   justify-items: start;
+   border-radius: 10px;
+   padding: 10px;
+   padding-left: 2%;
+   margin-bottom: 20%;
+   opacity: 70%;
+   width: 95%;
+ }
 
