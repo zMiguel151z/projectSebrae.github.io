@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html
+lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - [Nome da Pessoa]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .info-section {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .info-section h2 {
+            margin-top: 0;
+        }
+
+        .info-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info-section li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Imagens/Perfil.png" alt="error" class="profile-picture">
+        <h1 id="nome"></h1>
+
+        <div class="info-section">
+            <h2>Informações Pessoais</h2>
+            <ul>
+                <li><strong>Endereço:</strong> [Endereço]</li>
+                <li><strong>Telefone:</strong> [Telefone]</li>
+                <li><strong>Email:</strong> [Email]</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li>
+                    <strong>Cargo:</strong> [Cargo]
+                    <br>
+                    <strong>Empresa:</strong> [Empresa]
+                    <br>
+                    <strong>Período:</strong> [Período]
+                    <br>
+                    <strong>Descrição:</strong> [Descrição da experiência]
+                </li>
+                </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li>
+                    <strong>Curso:</strong> [Curso]
+                    <br>
+                    <strong>Instituição:</strong> [Instituição]
+                    <br>
+                    <strong>Período:</strong> [Período]
+                </li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>[Habilidades 1]</li>
+                <li>[Habilidades 2]</li>
+                <li>[Habilidades 3]</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+        const farmerName = urlParams.get('farmer');
+        document.getElementById('nome').textContent = ` ${farmerName}`;
+    </script>
+</body>
+</html>
